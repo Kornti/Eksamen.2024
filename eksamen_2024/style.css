@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Setter fontfamilien til Arial, med fallback til Helvetica og sans-serif */
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    #search_bar {
+        
+        position: relative;
+        display: inline-block;
+    }
+
+    #search_bar input[type="search"] {
+        width: 220px;
+        padding: 10px; 
+        border-radius: 20px;
+        border: 1px solid #000000;
+    }
+
+    #search_bar i {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%); 
+        color: #555555;
+        pointer-events: none;
+
+    }
+
+    #nav-liste{
+        padding: 0;
+        
+    }
+
+    nav, ul, li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        padding: 3;
+        margin: 2.5;
+        
+    }
+
+    nav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    #ikoner {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ikoner ul {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: auto; /* Juster etter behov */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Avrundede hjørner */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;         /* Plassering øverst */
+    right: 0;       /* Plassering til høyre */
+    width: 45%;     /* Bredde på tekstboksen, juster etter behov */
+    padding: 10px;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 10px;      /* Avstand mellom tekstlinjer */
+    color: white;   /* Tekstfarge */
+    height: 100%;   /* Fyller hele høyden på bildet */
+
+    a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: fit-content;
+        
+       
+        
+    }
+}

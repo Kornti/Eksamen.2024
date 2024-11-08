@@ -6,60 +6,45 @@
     <link rel="stylesheet" href="ikoner/i/css/solid.css">
     <link rel="stylesheet" href="ikoner/i/css/fontawesome.css">
     <link rel="stylesheet" href="ikoner/i/css/brand.css">
+    <link rel="stylesheet" href="style.css">
     <title>eksamen2024</title>
 </head>
 <body>
     <header>
-        <form action="search"></form>
-        <input type="search" placeholder="søk her">
-        <input type="submit" value="søk">
-        <h1>Logo</h1>
-
+        <nav id="search_bar">
+            <form action="search">
+                <input type="search" placeholder="søk her">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </nav>
         <nav>
-            <ul>
+            <ul id="nav-liste">
                 <li><a href="#">hjem</a></li>
                 <li><a href="#">produkter</a></li>
+                <li><a href="#"><h1>Logo</h1></a></li>
                 <li><a href="#">kattegorier</a></li>
                 <li><a href="#">kontakt oss</a></li>
+            </ul>
+        </nav>
+        <nav id="ikoner">
+            <ul>
                 <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </nav>
-        <section>
-            <img src="bilder/shell.jpg" alt="bilde av shell"><p>text</p>
-            <img src="bilder/vann.jpg" alt="bilde av vann"><p>text</p>
-            <img src="bilder/bil.jpg" alt="bilde av bil"><p>text</p>
-        </section>
-
-
     </header>
     <main>
-        <section>
-            <h2>Ut condimentum lacinia sapien, sed iaculis quam auctor quis</h2>
-            <h3>a eget. Mauris ac fermentum leo, quis eleifend lorem. Donec et felis imperdiet, ultrices nisl eu, suscipit neque. Morbi felis arcu, consectetur laoreet dui a, dignissim sagittis nulla. Sed aliquam purus mauris, porttitor dapibus libero iaculis vel. In in ex i</h3>
-            <h3>få en prøvepakke i dag</h3>
+        <section class="image-container">
+            <img src="bilder/blomst.jpg" alt="bilde av en blomst" style="width: 100%;">
+            <div class="text-overlay">
+                <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                <a href="#">les mer</a>
+            </div>
         </section>
-
-        <h2>våre mest populære produkter</h2>
-        <h3>oppdag det beste av det beste</h3>
-        <section>
-            <h3>new product</h3>
-        </section>
-        <section>
-            <h3>special price</h3>
-        </section>
-        <section>
-            <h3>best sellers</h3>
-        </section>
-
-        <article>
-            <img src="bilder/blomst.jpg" alt="bilde av blomst">
-            <p>produckt name</p>
-            <p>kr 1999</p>
-        </article>
-
     </main>
+ 
     <footer>
 
     </footer>
