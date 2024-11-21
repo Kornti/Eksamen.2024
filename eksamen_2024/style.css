@@ -509,5 +509,110 @@ footer{
 
 
 
+.brodsmule-sti{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.brodsmule-sti p{
+    margin: 0;
+}
+
+.brodsmule-sti li a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.grid-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    
+    
+}
+
+.grid-product img{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    
+}
+
+#cat-product1{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+   
+}
+
+#cat-product2{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#cat-product3{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/2;
+
+}
+
+#cat-product4{
+   display: grid;
+   grid-row: 1/4;
+   grid-column: 2/4;
+   height: 100%;
+}
+
+
+.produkt-info h3{
+    opacity: 0.4;
+    border-bottom: 1px solid black;
+    width: 110px;
+    font-weight: 400;
+}
+
+.produkt-info span{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+#størrelser-info button{
+    
+    width: 90%;
+}
+
+#størrelser-info i{
+    
+    width: 10%;
+    margin-top: 1rem;
+    border: 1px solid black;
+    
+}
+
+
+
+#størrelser-info select{
+    width: 100%;
+    height: 40px;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
