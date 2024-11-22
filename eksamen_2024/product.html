@@ -66,12 +66,15 @@
                     <option value="L">L</option>
                     <option value="XL">XL</option>
                 </select>
-                <button class="lagre" type="submit">Legg i handlekurv</button>
-                <i class="fa-regular fa-heart"></i>
+                
             </form>
-            <article>
+            <article id="info-button">
+                <a class="lagre">Legg i handlekurv </a>
+                <a> <i class="fa-regular fa-heart knapp"></i> </a>
+            </article>
+            <article class="informasjonbeholder">
                 <details>
-                    <summary>Materiale og vedlikehold</summary>
+                    <summary>Materiale og vedlikehold <i class="fa-solid fa-plus"></i></summary>
                     <ul>
                         <li>overmsteriale: 95% viskose,5% elastan</li>
                         <li>Materiale ermer: 100% polyester</li>
@@ -79,15 +82,16 @@
                     </ul>
                 </details>
             </article>
-            <article>
+            <article class="informasjonbeholder">
                 <details>
-                    <summary>Produktdetalier</summary>
+                    <summary>Produktdetalier <i class="fa-solid fa-plus"></i></summary>
                     <p>quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed </p>
                 </details>
             </article>
-            <article>
-                <details>
-                    <summary>Størrelsestabell</summary>
+            <article class="informasjonbeholder">
+                <details>   
+                    <summary>Størrelsestabell <i class="fa-solid fa-plus"></i></summary>
+
                     <p>sjekk hvordan din vanlige størrelse konverterer til andre størrelser i vår størrelsesguide. Husk at dette kun er en generel guide og at størrelsene kan variere i forhold til merke og modell.</p>
                     <table>
                         <thead>
@@ -209,12 +213,13 @@
                     </table>
                 </details>
             </article>
-            <article>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+            <article class="informasjonbeholder">
                 <i class="fa-regular fa-star"><span>32</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
                 <details>
                     <summary>Anmeldelser</summary>
                     <article>
@@ -233,7 +238,7 @@
         <section id="produkt-kort">
             <h2>Lignende produkter</h2>
             <a href="#">Se flere lignende produkter <i class="fa-solid fa-arrow-right"></i></a>
-            <article>
+            <article class="produkt-kort-info">
                 <img class="produkt-kort-bilde" src="https://picsum.photos/400/400" alt="Bilde av nytt produkt">
                     <a href="#" aria-label="lagre produktet som favoritt"><i class="fa-solid fa-heart"></i></a>
                 
