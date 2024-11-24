@@ -149,6 +149,7 @@ header {
 .image-container1 a{
     color: black;
     background-color: white;
+    margin-bottom: 1rem;
 }
 
 .image-container3 a{
@@ -166,10 +167,8 @@ header {
 #image-scroll a{
     text-decoration: none;
     border-radius: 20px;
-    width: fit-content;
     padding: 10px;
     margin: 2rem;
-    
 }
 
 .overskrifter{
@@ -827,6 +826,12 @@ details > summary::-webkit-details-marker {
         grid-row: 3/4;
         
     }
+
+    #checkout-main{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
 
 
 }
