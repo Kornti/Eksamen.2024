@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>eksamen2024</title>
 </head>
-<body>
+<body id="checkout-main">
     <header>
         <nav id="search_bar">
             <form action="search">
@@ -35,7 +35,7 @@
             </ul>
         </nav>
     </header>
-    <main id="checkout-main">
+    <main>
         <aside>
             <nav>
                 <a href="#index.html"><i class="fa-solid fa-arrow-left"></i> fortsett og handle</a>
@@ -43,112 +43,128 @@
         </aside>
         <h2 id="overskrift">kasse</h2>
         <section class="shopping-side">
-            <h3>1.SHOPPINGBAGEN DIN</h3>
-            <article>
+            <h3>1.SHOPPINGBAGEN DIN</h3> 
+            <article class="shopping-list">
                 <img src="bilder/shell.jpg" alt="bilde av et shell">
-                <h4>product name</h4>
-                <P>KR 1999</P>
-                <p>Farge: beige</p>
-                <form>
-                    <label>størrelser</label>
-                    <select name="størrelser">
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        
-                    </select>
+                <article class="shopping-informasjon">
+                    <h4>product name</h4>
+                    <P>KR 1999</P>
+                    <p>Farge: beige</p>
+                
+                    <form>
+                        <label>størrelser</label>
+                        <select name="størrelser">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            
+                        </select>
 
-                    <label>antall</label>
-                    <input type="number" min="1" max="15">
-                </form>
+                        <label>antall</label>
+                        <input type="number" min="1" max="15">
+                    </form>
+                </article>
 
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-trash"></i>
+                <span>
 
-            </article>
-            <article>
-                <img src="bilder/shell.jpg" alt="bilde av et shell">
-                <h4>product name</h4>
-                <P>KR 1999</P>
-                <p>Farge: beige</p>
-                <form>
-                    <label>størrelser</label>
-                    <select>
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        
-                    </select>
-
-                    <label>antall</label>
-                    <input type="number" min="1" max="15">
-                </form>
-
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-trash"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </span>
 
             </article>
             <article class="shopping-list">
                 <img src="bilder/shell.jpg" alt="bilde av et shell">
-                <h4>product name</h4>
-                <P>KR 1999</P>
-                <p>Farge: beige</p>
-                <form>
-                    <label>størrelser</label>
-                    <select name="størrelser">
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        
-                    </select>
+                <article class="shopping-informasjon">
+                    <h4>product name</h4>
+                    <P>KR 1999</P>
+                    <p>Farge: beige</p>
+                    <form>
+                        <label>størrelser</label>
+                        <select>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            
+                        </select>
 
-                    <label>antall</label>
-                    <input type="number" min="1" max="15">
-                    
-                </form>
+                        <label>antall</label>
+                        <input type="number" min="1" max="15">
+                    </form>
+                </article>
+                <span>
 
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-trash"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+
+
+
+            </article>
+            <article class="shopping-list">
+                <img src="bilder/shell.jpg" alt="bilde av et shell">
+                <article class="shopping-informasjon">
+                    <h4>product name</h4>
+                    <P>KR 1999</P>
+                    <p>Farge: beige</p>
+                    <form>
+                        <label>størrelser</label>
+                        <select>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            
+                        </select>
+
+                        <label>antall</label>
+                        <input type="number" min="1" max="15">
+                    </form>
+                </article>
+                <span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </span>
 
             </article>
         </section>
         <section class="dine-opplysninger">
             <h2>2. DINE OPPLYSNINGER</h2>
             <form>
+                
                 <h5>leveringsadresse fornavn</h5>
-                <label>
+                <label class="opplysninger-input">
                     <input type="text" name="navn" placeholder="ola" maxlength="20" required>
                 </label>
                 <h5>Etternavn</h5>
-                <label>
+                <label class="opplysninger-input">
                     <input type="text" name="etternavn" placeholder="Nordmann.." maxlength="30" required>
                 </label>
                 <h5>Gateadresse</h5>
-                <label>
+                <label class="opplysninger-stor-input">
                     <input type="text" placeholder="B R A veien 4*">
                 </label>
                 <h5>Postnummer</h5>
-                <label>
+                <label class="opplysninger-input">
                     <input type="number" placeholder="1752*">
                 </label>
                 <h5>Poststed</h5>
-                <label>
+                <label class="opplysninger-input">
                     <input type="text" placeholder="Halden*">
                 </label>
                 <article class="kontakt-informasjon">
                     <h5>kontaktinformasjon E-post</h5>
-                    <label>
+                    <label class="opplysninger-stor-input">
                         <input type="email" placeholder="olanordman@hiof.no..*"> 
                     </label>
                 
                     <h5>Telefon</h5>
-                    <label>
+                    <label class="opplysninger-stor-input">
                         <input type="text" placeholder="+4749***018">
                     </label>
                     <button class="lagre" type="submit"> Lagre</button>
