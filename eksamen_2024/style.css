@@ -454,22 +454,100 @@ footer{
     margin-top: 2rem;
 }
 
-.dine-opplysninger h2{
-    text-align: left;
+form{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
-.dine-opplysninger form h5{
-    margin: 0;
-    font-size: 15px;
+form label{
+    font-size: large;
+    font-weight: 450;
 }
 
-.dine-opplysninger form label input{
+#lfornavn{
     width: 100%;
     height: 35px;
 }
 
+#enavn{
+    width: 100%;
+    height: 35px;
+}
+
+#gadresse{
+    width: 100%;
+    height: 35px;
+}
+
+#pnummer{
+    width: 100%;
+    height: 35px;
+}
+
+#psted{
+    width: 100%;
+    height: 35px;
+}
+
+#kpost{
+    width: 100%;
+    height: 35px;
+}
+
+#tfon{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 3rem;
+}
+
+#knummer{
+    height: 35px;
+}
+
+#udato{
+    height: 35px;
+}
+
+#cvc{
+    height: 35px;
+}
+
+.dine-opplysninger h2{
+    text-align: left;
+}
+
+.kjøp form{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.nyhet{
+    justify-content: center;
+}
+
+.nyhet label{
+    max-width: 90%;
+}
+
+
+
+.input-rad{
+    display: flex;
+    flex-direction: column;
+} 
+
+.opplysninger-input{
+    width: 100%;
+}
+
+.opplysninger-stor-input{
+    width: 100%;
+}
+
 .kontakt-informasjon{
+    width: 100%;
     margin-top: 6rem;
 }
 
@@ -495,10 +573,18 @@ footer{
 }
 
 .express{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     margin: 2rem;
     margin-top: 0.7rem;
     padding: 1rem;
+}
+
+.express h5{
+    color: rgb(103, 103, 103);
+    font-size: 15px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+
 }
 
 .express label{
@@ -506,7 +592,7 @@ footer{
 }
 
 .express h6{
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
@@ -870,35 +956,115 @@ details > summary::-webkit-details-marker {
         margin-left: 1rem;
     }
 
-    .dine-opplysninger h2{
-        width: 100%;
-    }
+    
 
     .dine-opplysninger form{
         display: flex;
         flex-wrap: wrap;
-
+        gap: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 
-    .dine-opplysninger form h5{
-        width: 100%;
+    .dine-opplysninger h2{
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 
-    .dine-opplysninger form article{
-        width: 50%;
-        flex-wrap: wrap;
+    .dine-opplysninger p{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
 
+    #lfornavn{
+        height: 35px;
+    }
+    
+    #enavn{
+        height: 35px;
+    }
+    
+    #gadresse{
+        height: 35px;
+    }
+    
+    #pnummer{
+        
+        height: 35px;
+    }
+    
+    #psted{
+        
+        height: 35px;
+    }
+    
+    .opplysninger-input{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        flex: 1 1 calc(50% - 1rem);
+        
     }
 
     .opplysninger-stor-input{
-        width: 100%;
         display: flex;
         flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+
+    .express h6{
+        text-align: right;
+        position: relative;
+        bottom: 3rem;
+        
+    }
+
+
+    .kjøp{
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+
+    .dine-opplysninger h4{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    .grid-product{
+        width: 60%;
+    }
+
+    .produkt-info{
+        
+        width: 35%;
+        
+    }
+
+    #wrap{
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .produkt-kort-selg{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .produkt-kort-selg h2{
+        width: 50%;
+    }
+
+    .produkt-kort-selg a{
+        justify-content: right;
+        width: 50%;
     }
 
     
 
-    
 }
 
 
