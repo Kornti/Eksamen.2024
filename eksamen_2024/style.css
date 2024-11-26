@@ -216,24 +216,51 @@ header {
     position: relative;
 }
 
+.liker{
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(101, 101, 101);
+    padding: 1rem;
+    opacity: 0.7;
+    
+    
+}
+
+.liker:hover{
+    background-color: rgb(203, 91, 110);
+}
+
 .produkt-kort-bilde{
     border-radius: 20px;
     width: 100%;
 }
 
-#produkt-kort  article a{
+.liker{
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     
 }
 
-
-
-#produkt-kort article h3{
-    position: absolute;
-
+.produkt-name{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    font-size: larger;
 }
+
+.produkt-name span{
+    font-size: medium;
+    font-weight: 400;
+}
+
+
+
 
 .pris{
     position: relative;
@@ -781,13 +808,8 @@ details > summary::-webkit-details-marker {
 }
 
 #produkt-kort-selg article a{
-    position: absolute;
     top: 1.3rem;
     right: 1.3rem;
-}
-
-#produkt-kort-selg article h3{
-    position: absolute;
 }
 
 #rober-rewue{
