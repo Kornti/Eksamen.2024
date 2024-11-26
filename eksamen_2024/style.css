@@ -229,6 +229,7 @@ header {
 }
 
 
+
 #produkt-kort article h3{
     position: absolute;
 
@@ -1049,21 +1050,22 @@ details > summary::-webkit-details-marker {
         
     }
 
-    .produkt-kort-selg{
+    #lignende-produkter{
         display: flex;
         justify-content: space-between;
+
     }
 
-    .produkt-kort-selg h2{
-        width: 50%;
+    #produkt-kort article a{
+        border: 1px solid rgb(101, 101, 101);
+        border-radius: 100%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(101, 101, 101);
+        padding: 1rem;
+        opacity: 0.5;
+        
+        
     }
-
-    .produkt-kort-selg a{
-        justify-content: right;
-        width: 50%;
-    }
-
-    
 
 }
 
