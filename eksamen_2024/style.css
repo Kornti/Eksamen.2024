@@ -65,6 +65,13 @@ header {
         justify-content: center;
     }
 
+    
+    #søppel i:hover{
+        transform: scale(1.5);
+        transition: transform 0.4s;
+        
+    }
+
     #ikoner ul {
         flex-direction: row;
         gap: 1rem;
@@ -259,9 +266,6 @@ header {
     font-weight: 400;
 }
 
-
-
-
 .pris{
     position: relative;
     text-align: right;
@@ -362,6 +366,7 @@ header {
 
 
 .anmeldelse{
+    max-width: 289px;
     min-width: 250px;
     height: 400px;
     border: 1px solid rgb(56, 56, 56);
@@ -463,11 +468,6 @@ footer{
 
 .shopping-informasjon form input{
     padding: 1rem;
-    
-    
-    
-    
-
 }
 
 #overskrift{
@@ -728,6 +728,16 @@ form label{
     gap: 1rem;
 }
 
+#info-button i{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#info-button i:hover{
+    color: palevioletred;
+}
+
 .lagre{
     display: inline-block;
     padding: 1rem;
@@ -941,8 +951,8 @@ details > summary::-webkit-details-marker {
     }
 
     #checkout-main{
-        margin-left: 7rem;
-        margin-right: 7rem;
+        max-width: 1200px;
+        margin-left: 10rem;
     }
 
 
@@ -1056,10 +1066,11 @@ details > summary::-webkit-details-marker {
 
     .grid-product{
         width: 60%;
+        max-height: 844.8px;
+        min-height: 575.75px;
     }
 
     .produkt-info{
-        
         width: 35%;
         
     }
@@ -1067,8 +1078,6 @@ details > summary::-webkit-details-marker {
     #wrap{
         gap: 1rem;
         display: flex;
-        flex-wrap: wrap;
-        
         
     }
 
@@ -1078,17 +1087,7 @@ details > summary::-webkit-details-marker {
 
     }
 
-    #produkt-kort article a{
-        border: 1px solid rgb(101, 101, 101);
-        border-radius: 100%;
-        color: rgb(255, 255, 255);
-        background-color: rgb(101, 101, 101);
-        padding: 1rem;
-        opacity: 0.5;
-        
-        
-    }
-
+   
 }
 
 
