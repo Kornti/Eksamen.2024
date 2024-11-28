@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Setter fontfamilien til Arial, med fallback til Helvetica og sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
         display: inline-block;
     }
 
-    #search_bar input[type="search"] {
+    #search_bar input{
         width: 220px;
         padding: 10px; 
         border-radius: 20px;
@@ -349,8 +349,6 @@ header {
     
 }
 
-
-
 #anmeldelser .scroll{
     display: flex;
     overflow: scroll;
@@ -558,8 +556,6 @@ form label{
 .nyhet label{
     max-width: 90%;
 }
-
-
 
 .input-rad{
     display: flex;
@@ -774,9 +770,7 @@ form label{
     padding: 1rem;
 }
 
-details > summary::-webkit-details-marker {
-  display: none;
-}
+
 
 .informasjonbeholder i{
     float: right;
